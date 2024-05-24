@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+header, section {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form div {
+    margin-bottom: 10px;
+}
+.contact-form label {
+    margin-right: 10px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+.contact-form textarea {
+    height: 100px;
+}
+.contact-form button {
+    padding: 5px 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.profile-picture {
+    display: flex;
+    margin: 10px 0;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.links img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
